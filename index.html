@@ -141,6 +141,10 @@ td.r{color:#fff;font-weight:700}
 .doc p{margin:0;color:var(--muted)}
 .pill-soon{display:inline-block;background:var(--pink);color:var(--brand);font-weight:600;font-size:14px;padding:10px 18px;border-radius:999px}
 
+.refs{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+.refs li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px;font-size:14.5px;color:var(--ink);overflow-wrap:anywhere;line-height:1.55}
+.refs .rn{font-weight:700;color:var(--brand2);margin-right:4px}
+.refs a{color:var(--brand2);text-decoration:none}.refs a:hover{text-decoration:underline}
 footer{background:#2a1029;color:#e9dbe8;padding:44px 0;font-size:15px}
 footer .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
 footer h3{color:#fff;font-size:16px;margin-bottom:8px}
@@ -153,7 +157,7 @@ footer p{margin:0 0 4px}
 <nav aria-label="Secciones">
   <div class="wrap">
     <b>Proyecto Modular III</b>
-    <a href="#video">Video</a><a href="#idea">La idea</a><a href="#metodologia">Metodología</a><a href="#resultados">Resultados</a><a href="#conclusiones">Conclusiones</a><a href="#documento">Documento</a>
+    <a href="#video">Video</a><a href="#idea">La idea</a><a href="#metodologia">Metodología</a><a href="#resultados">Resultados</a><a href="#conclusiones">Conclusiones</a><a href="#documento">Documento</a><a href="#referencias">Referencias</a>
   </div>
 </nav>
 
@@ -301,6 +305,42 @@ footer p{margin:0 0 4px}
       <div class="txt"><h3>Cartel del proyecto</h3><p>El cartel presentado, en PDF.</p></div>
       <div id="cartelBtns"></div>
     </div>
+  </div>
+</section>
+
+<section id="referencias" class="alt">
+  <div class="wrap">
+    <span class="kicker">Referencias</span>
+    <h2>Fuentes consultadas</h2>
+    <p class="lead">Referencias del reporte del proyecto, con la misma numeración que en el documento.</p>
+    <ol class="refs">
+        <li><span class="rn">[1]</span> Azarian, M. H., &amp; Sutapun, W. (2022). Biogenic calcium carbonate derived from waste shells for advanced material applications: A review. Frontiers in Materials, 9, 1024977. <a href="https://doi.org/10.3389/fmats.2022.1024977" target="_blank" rel="noopener">https://doi.org/10.3389/fmats.2022.1024977</a></li>
+        <li><span class="rn">[2]</span> López-Díaz, J. A., Talavera-Mendoza, O., Juárez, K., Esparza-Soto, M., Violante-González, J., Ocampo-Díaz, Y. Z. E., Carreto-Morales, E. Y., &amp; Hernández-Flores, G. (2024). Acid mine drainage neutralization rate using biogenic calcite. Revista Internacional de Contaminación Ambiental, 40, 115–135. <a href="https://doi.org/10.20937/RICA.55194" target="_blank" rel="noopener">https://doi.org/10.20937/RICA.55194</a></li>
+        <li><span class="rn">[3]</span> Skoog, D. A., West, D. M., Holler, F. J., &amp; Crouch, S. R. (2014). Fundamentals of analytical chemistry (9th ed.). Brooks/Cole, Cengage Learning.</li>
+        <li><span class="rn">[4]</span> Levenspiel, O. (1999). Chemical reaction engineering (3rd ed.). John Wiley &amp; Sons.</li>
+        <li><span class="rn">[5]</span> Lund, K., Fogler, H. S., McCune, C. C., &amp; Ault, J. W. (1975). Acidization—II. The dissolution of calcite in hydrochloric acid. Chemical Engineering Science, 30(8), 825–835. <a href="https://doi.org/10.1016/0009-2509(75)80047-9" target="_blank" rel="noopener">https://doi.org/10.1016/0009-2509(75)80047-9</a></li>
+        <li><span class="rn">[6]</span> Plummer, L. N., Wigley, T. M. L., &amp; Parkhurst, D. L. (1978). The kinetics of calcite dissolution in CO₂-water systems at 5° to 60°C and 0.0 to 1.0 atm CO₂. American Journal of Science, 278(2), 179–216. <a href="https://doi.org/10.2475/ajs.278.2.179" target="_blank" rel="noopener">https://doi.org/10.2475/ajs.278.2.179</a></li>
+        <li><span class="rn">[7]</span> Schneider, C. A., Rasband, W. S., &amp; Eliceiri, K. W. (2012). NIH Image to ImageJ: 25 years of image analysis. Nature Methods, 9(7), 671–675. <a href="https://doi.org/10.1038/nmeth.2089" target="_blank" rel="noopener">https://doi.org/10.1038/nmeth.2089</a></li>
+        <li><span class="rn">[8]</span> Kowalczuk, P. B., &amp; Drzymala, J. (2016). Physical meaning of the Sauter mean diameter of spherical particulate matter. Particulate Science and Technology, 34(6), 645–647. <a href="https://doi.org/10.1080/02726351.2015.1099582" target="_blank" rel="noopener">https://doi.org/10.1080/02726351.2015.1099582</a></li>
+        <li><span class="rn">[9]</span> Haynes, W. M. (Ed.). (2016). CRC handbook of chemistry and physics (97th ed.). CRC Press.</li>
+        <li><span class="rn">[10]</span> Ranz, W. E., &amp; Marshall, W. R. (1952). Evaporation from drops. Chemical Engineering Progress, 48(3), 141–146; 48(4), 173–180.</li>
+        <li><span class="rn">[11]</span> Haider, A., &amp; Levenspiel, O. (1989). Drag coefficient and terminal velocity of spherical and nonspherical particles. Powder Technology, 58(1), 63–70. <a href="https://doi.org/10.1016/0032-5910(89)80008-7" target="_blank" rel="noopener">https://doi.org/10.1016/0032-5910(89)80008-7</a></li>
+        <li><span class="rn">[12]</span> Harriott, P. (1962). Mass transfer to particles: Part I. Suspended in agitated tanks. AIChE Journal, 8(1), 93–101. <a href="https://doi.org/10.1002/aic.690080122" target="_blank" rel="noopener">https://doi.org/10.1002/aic.690080122</a></li>
+        <li><span class="rn">[13]</span> Leaist, D. G., &amp; Wiens, B. (1986). Interdiffusion of acids and bases. HCl and NaOH in aqueous solution. Canadian Journal of Chemistry, 64(5), 1007–1011. <a href="https://doi.org/10.1139/v86-169" target="_blank" rel="noopener">https://doi.org/10.1139/v86-169</a></li>
+        <li><span class="rn">[14]</span> Cussler, E. L. (2009). Diffusion: Mass transfer in fluid systems (3rd ed.). Cambridge University Press.</li>
+        <li><span class="rn">[15]</span> Sano, Y., Yamaguchi, N., &amp; Adachi, T. (1974). Mass transfer coefficients for suspended particles in agitated vessels and bubble columns. Journal of Chemical Engineering of Japan, 7(4), 255–261. <a href="https://doi.org/10.1252/jcej.7.255" target="_blank" rel="noopener">https://doi.org/10.1252/jcej.7.255</a></li>
+        <li><span class="rn">[16]</span> Zwietering, T. N. (1958). Suspending of solid particles in liquid by agitators. Chemical Engineering Science, 8(3–4), 244–253. <a href="https://doi.org/10.1016/0009-2509(58)85031-9" target="_blank" rel="noopener">https://doi.org/10.1016/0009-2509(58)85031-9</a></li>
+        <li><span class="rn">[17]</span> Sainz-Hernández, J. C., Renganathan, P., &amp; Rueda Puente, E. O. (2026). Eggshell waste valorization for sustainable agriculture: Applications, nanotechnology advances, and circular bioeconomy perspectives. Clean Technologies, 8(3), 69. <a href="https://doi.org/10.3390/cleantechnol8030069" target="_blank" rel="noopener">https://doi.org/10.3390/cleantechnol8030069</a></li>
+        <li><span class="rn">[18]</span> Mignardi, S., Archilletti, L., Medeghini, L., &amp; De Vito, C. (2020). Valorization of eggshell biowaste for sustainable environmental remediation. Scientific Reports, 10, 2436. <a href="https://doi.org/10.1038/s41598-020-59324-5" target="_blank" rel="noopener">https://doi.org/10.1038/s41598-020-59324-5</a></li>
+        <li><span class="rn">[19]</span> Skousen, J., Zipper, C. E., Rose, A., Ziemkiewicz, P. F., Nairn, R., McDonald, L. M., &amp; Kleinmann, R. L. (2017). Review of passive systems for acid mine drainage treatment. Mine Water and the Environment, 36(1), 133–153. <a href="https://doi.org/10.1007/s10230-016-0417-1" target="_blank" rel="noopener">https://doi.org/10.1007/s10230-016-0417-1</a></li>
+        <li><span class="rn">[20]</span> Muliwa, A. M., Leswifi, T. Y., &amp; Onyango, M. S. (2018). Performance evaluation of eggshell waste material for remediation of acid mine drainage from coal dump leachate. Minerals Engineering, 122, 241–250. <a href="https://doi.org/10.1016/j.mineng.2018.04.009" target="_blank" rel="noopener">https://doi.org/10.1016/j.mineng.2018.04.009</a></li>
+        <li><span class="rn">[21]</span> National Research Council. (2011). Prudent practices in the laboratory: Handling and management of chemical hazards (Updated version). The National Academies Press. <a href="https://doi.org/10.17226/12654" target="_blank" rel="noopener">https://doi.org/10.17226/12654</a></li>
+        <li><span class="rn">[22]</span> UNESCO. (2021). Engineering for sustainable development: Delivering on the Sustainable Development Goals. UNESCO Publishing. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000375644" target="_blank" rel="noopener">https://unesdoc.unesco.org/ark:/48223/pf0000375644</a></li>
+        <li><span class="rn">[23]</span> Alcaraz Ibarra, S., Esparza Soto, M., &amp; González Blanco, G. (2026). Aguas residuales industriales: retos actuales y perspectivas futuras para su tratamiento biológico. Ciencia y Mar, 30(88), 65–76.</li>
+        <li><span class="rn">[24]</span> Aubé, B., &amp; Zinck, J. (2003, 1–3 de diciembre). Lime treatment of acid mine drainage in Canada [Ponencia]. Brazil–Canada Seminar on Mine Rehabilitation, Florianópolis, Brasil.</li>
+        <li><span class="rn">[25]</span> Wagner, W., &amp; Pruß, A. (2002). The IAPWS formulation 1995 for the thermodynamic properties of ordinary water substance for general and scientific use. Journal of Physical and Chemical Reference Data, 31(2), 387–535. <a href="https://doi.org/10.1063/1.1461829" target="_blank" rel="noopener">https://doi.org/10.1063/1.1461829</a></li>
+        <li><span class="rn">[26]</span> Huber, M. L., Perkins, R. A., Laesecke, A., Friend, D. G., Sengers, J. V., Assael, M. J., Metaxa, I. N., Vogel, E., Mareš, R., &amp; Miyagawa, K. (2009). New international formulation for the viscosity of H₂O. Journal of Physical and Chemical Reference Data, 38(2), 101–125. <a href="https://doi.org/10.1063/1.3088050" target="_blank" rel="noopener">https://doi.org/10.1063/1.3088050</a></li>
+    </ol>
   </div>
 </section>
 
